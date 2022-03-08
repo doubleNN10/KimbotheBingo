@@ -1,0 +1,367 @@
+Using pre-set license
+Built from '2021.2/release' branch; Version is '2021.2.0f1 (4bf1ec4b23c9) revision 4977132'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.1415; Version 2004; 64bit' Language: 'es' Physical Memory: 16234 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/jorge/Documents/GitHub/KimbotheBingo/KimboTheBingo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54906
+Successfully changed project path to: C:/Users/jorge/Documents/GitHub/KimbotheBingo/KimboTheBingo
+C:/Users/jorge/Documents/GitHub/KimbotheBingo/KimboTheBingo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 76.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.0f1 (4bf1ec4b23c9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jorge/Documents/GitHub/KimbotheBingo/KimboTheBingo/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.6589
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007615 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 71.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.830 seconds
+Domain Reload Profiling:
+	ReloadAssembly (830ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (452ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (102ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005598 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jorge\Documents\GitHub\KimbotheBingo\KimboTheBingo\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jorge\Documents\GitHub\KimbotheBingo\KimboTheBingo\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.111 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1112ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (825ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (367ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3078 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (55.8 KB). Loaded Objects now: 3537.
+Memory consumption went from 112.0 MB to 111.9 MB.
+Total: 3.933200 ms (FindLiveObjects: 0.266200 ms CreateObjectMapping: 0.188800 ms MarkObjects: 3.414400 ms  DeleteObjects: 0.063100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 90339.469925 seconds.
+  path: Assets/kimbo3.fbx
+  artifactKey: Guid(b7685eec6542ae24c81b6481ab45d2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kimbo3.fbx using Guid(b7685eec6542ae24c81b6481ab45d2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f825141061e2b1b4384572227c3049') in 0.408325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.238574 seconds.
+  path: Assets/kimbo3.zip
+  artifactKey: Guid(9150d1f9e65e0e64b8279d22def671ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kimbo3.zip using Guid(9150d1f9e65e0e64b8279d22def671ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb332e411ce51afcab6a60ba686b217') in 0.009822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.770537 seconds.
+  path: Assets/Characters
+  artifactKey: Guid(e8dc540fe8ef7d74b823c8bf1db4443d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters using Guid(e8dc540fe8ef7d74b823c8bf1db4443d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0983d06b21b7c29473b433d836a94b73') in 0.006900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.599172 seconds.
+  path: Assets/Characters/Kimbo
+  artifactKey: Guid(3bc744912d533a645911b31f57b3c96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Kimbo using Guid(3bc744912d533a645911b31f57b3c96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20cf670cdb9e331582dcaeb5a7a11a1') in 0.005918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056313 seconds.
+  path: Assets/Characters/Kimbo/kimbo3.dae
+  artifactKey: Guid(2e82e018340c0fe429a643cb9e0a642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Kimbo/kimbo3.dae using Guid(2e82e018340c0fe429a643cb9e0a642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77136c23bca4b89d9ecbc5f6a3dae48a') in 0.096137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.745852 seconds.
+  path: Assets/Characters/Kimbo/animations
+  artifactKey: Guid(2ed3f6f7dca11d14e8e5deef6eca1071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Kimbo/animations using Guid(2ed3f6f7dca11d14e8e5deef6eca1071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7090878e48f2c6f3f8693531abc8c8ab') in 0.005983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.175913 seconds.
+  path: Assets/Characters/Kimbo/animations/kimbo3 1.fbx
+  artifactKey: Guid(c57ee1a3e82b91348bac74ce4704c078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Kimbo/animations/kimbo3 1.fbx using Guid(c57ee1a3e82b91348bac74ce4704c078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e05fb90e84e93c4d96486ee7b4ae242') in 0.379126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Characters/Kimbo/animations/kimbo3@Standard Walk 1.fbx
+  artifactKey: Guid(3816448b176338f4c85423955ea8f895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Kimbo/animations/kimbo3@Standard Walk 1.fbx using Guid(3816448b176338f4c85423955ea8f895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5836f7ed85e70463b6e94cb108119952') in 0.146715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.099073 seconds.
+  path: Assets/Characters/Kimbo/animations/kimbo3 1.fbx
+  artifactKey: Guid(c57ee1a3e82b91348bac74ce4704c078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Kimbo/animations/kimbo3 1.fbx using Guid(c57ee1a3e82b91348bac74ce4704c078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7537684380f961d89a0bfaeed28d7b') in 0.171769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Characters/Kimbo/animations/kimbo3@Standard Walk 1.fbx
+  artifactKey: Guid(3816448b176338f4c85423955ea8f895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Kimbo/animations/kimbo3@Standard Walk 1.fbx using Guid(3816448b176338f4c85423955ea8f895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd654b44a277799912cf6e0c2d5d2c73b') in 0.109148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.482820 seconds.
+  path: Assets/Characters/Kimbo/animations/kimbo3.fbx
+  artifactKey: Guid(b7685eec6542ae24c81b6481ab45d2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Kimbo/animations/kimbo3.fbx using Guid(b7685eec6542ae24c81b6481ab45d2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d853b1da64f5b2d3c5a150f709ce9e5') in 0.117631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.737111 seconds.
+  path: Assets/Characters/Kimbo/animations/kimbo3.fbx
+  artifactKey: Guid(b7685eec6542ae24c81b6481ab45d2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Kimbo/animations/kimbo3.fbx using Guid(b7685eec6542ae24c81b6481ab45d2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e650d066d592888d9000087cc47786') in 0.135145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.804308 seconds.
+  path: Assets/Characters/Kimbo/animations/kimbo3@Standard Walk.fbx
+  artifactKey: Guid(93c78c98414af094fabc5d77e530b118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Kimbo/animations/kimbo3@Standard Walk.fbx using Guid(93c78c98414af094fabc5d77e530b118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7eb8e0ad33322baa1cc640a9dda66f') in 0.139687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.461580 seconds.
+  path: Assets/Characters/Kimbo/animations/kimbo3@Standard Walk.fbx
+  artifactKey: Guid(93c78c98414af094fabc5d77e530b118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Kimbo/animations/kimbo3@Standard Walk.fbx using Guid(93c78c98414af094fabc5d77e530b118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37deebab92d14301412dab1dd3b54171') in 0.127648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.157386 seconds.
+  path: Assets/Characters/Kimbo/animations/walking.controller
+  artifactKey: Guid(4e3013e1e8b23e34ea1efc1686ff4406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Kimbo/animations/walking.controller using Guid(4e3013e1e8b23e34ea1efc1686ff4406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965765f500438916dd698628ce6898d5') in 0.012729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.180957 seconds.
+  path: Assets/Characters/Kimbo/animations/kimbo.controller
+  artifactKey: Guid(4e3013e1e8b23e34ea1efc1686ff4406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Kimbo/animations/kimbo.controller using Guid(4e3013e1e8b23e34ea1efc1686ff4406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed1881e23ed74785d6dea0a88ed8fd3') in 0.008534 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005711 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jorge\Documents\GitHub\KimbotheBingo\KimboTheBingo\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jorge\Documents\GitHub\KimbotheBingo\KimboTheBingo\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.254 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1255ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (987ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (421ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (290ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3072 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3582.
+Memory consumption went from 128.8 MB to 128.8 MB.
+Total: 3.098900 ms (FindLiveObjects: 0.275400 ms CreateObjectMapping: 0.190600 ms MarkObjects: 2.615500 ms  DeleteObjects: 0.016400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005744 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jorge\Documents\GitHub\KimbotheBingo\KimboTheBingo\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jorge\Documents\GitHub\KimbotheBingo\KimboTheBingo\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.404 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1405ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1166ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (307ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (517ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (353ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3072 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3584.
+Memory consumption went from 128.8 MB to 128.8 MB.
+Total: 5.729400 ms (FindLiveObjects: 0.543600 ms CreateObjectMapping: 0.434800 ms MarkObjects: 4.730200 ms  DeleteObjects: 0.019600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
